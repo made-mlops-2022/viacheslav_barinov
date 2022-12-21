@@ -17,9 +17,9 @@ jobs:
           architecture: 'x64'
       - name: Install requirements
         run: |
-          sudo add-apt-repository ppa:jonathonf/python-3.6
-          sudo apt-get update
-          sudo apt-get install python3.6
+          python - m pip install – upgrade pip
+          pip install - upgrade wheel
+          pip install - upgrade setuptools
           pip install -r requirements.txt --use-pep517
       - name: Run tests
         run: |
