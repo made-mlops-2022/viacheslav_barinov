@@ -28,7 +28,7 @@ with DAG(
         do_xcom_push=False,
         network_mode="bridge",
         mounts=[Mount(
-            source="/home/slava/mlops/airflow-examples/data/",
+            source="/home/slava/Рабочий стол/mlops/data",
             target="/data",
             type='bind'
             )]

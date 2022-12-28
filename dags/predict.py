@@ -16,7 +16,7 @@ MODEL_PATH = Variable.get("MODELPATH")
 TRANSFORMER_PATH = Variable.get("TRANSFORMERPATH")
 
 MOUNT_SOURCE = Mount(
-    source="/home/slava/mlops/airflow-examples/data/",
+    source="/home/slava/Рабочий стол/mlops/data",
     target="/data",
     type='bind'
     )

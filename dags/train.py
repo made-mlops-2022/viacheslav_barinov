@@ -13,7 +13,7 @@ PROCESSED_DIR_NAME = "/data/processed/{{ ds }}"
 TRANSFORMER_DIR_NAME = "/data/transformer_model/{{ ds }}"
 MODEL_DIR_NAME = "/data/models/{{ ds }}"
 MOUNT_SOURCE = Mount(
-    source="/home/slava/mlops/airflow-examples/data/",
+    source="/home/slava/Рабочий стол/mlops/data",
     target="/data",
     type='bind'
     )

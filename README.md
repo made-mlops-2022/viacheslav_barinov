@@ -1,12 +1,7 @@
 # Домашнее задание №3
-Для корректной работы с переменными, созданными из UI:
+Для запуска airflow:
 ------------
-    export FERNET_KEY=$(python -c "from cryptography.fernet import Fernet; FERNET_KEY = Fernet.generate_key().decode(); print(FERNET_KEY)")
-------------
-Для сборки и запуска airflow:
-------------
-    docker compose up --build
-------------
+sh run_docker.sh
 
 Для правильной работы dag'ов:
 - Запустить dag data_generator
